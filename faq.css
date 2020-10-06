@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Roboto+Slab|Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bg-img
+{ 
+    background-repeat: no-repeat;    
+   min-height: 50vh!important;
+    background-size: cover;
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(0,0,0,0.5)) ,url('./image/doctor.jpg')!important;  
+     margin-top: -64px;
+     width: 100%!important;
+
+}
+
+.bg-img p
+{
+    padding-top: 11rem!important;
+    color: white;
+    font-size: 18px;
+    font-family: 'Caladea', serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+} 
+.bg-img .content{
+    padding:0 10% 0 10%;
+}
+nav 
+{
+    background-color: transparent!important; 
+    background-attachment: fixed;
+     
+}
+.icon ul label
+{
+    font-size:15px;
+    color: #ff0066;
+    margin-top: -10px;
+    text-transform: capitalize;
+    margin-left:-7px!important;
+    font-family:  'Caladea', serif;
+    font-weight: 900;
+   
+}
+.icon ul li:hover
+{
+   transition-delay: 3s!important;
+}
+.icon
+{
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76));
+   
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+ 
+}
+input[type=number]:focus
+{
+    border-color: blue!important;
+}
+
+.main .card-header{
+    font-size: 25px!important;
+}
+.main .card-title
+{
+    font-size: 22px!important;
+    
+}
+
+.main .card-text
+{
+    
+    font-size: 15px;
+
+    
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.footer
+{
+    background-image: linear-gradient(to left,rgba(247, 183, 183, 0), rgb(0,0,0,0.5)) ,url('./image/footer.png');
+}
+nav .nav-wrapper li button
+{
+    background-image: linear-gradient(#2aa9b2,#1f92b8);
+    outline: none;
+    border: none;
+    height: 50px;
+    color: white!important;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+   
+}
+nav .nav-wrapper li button a
+{
+    color: white;
+    margin-top: -8px!important;
+}
+nav .nav-wrapper li button:hover 
+{
+    background-color: rgb(1, 58, 76);
+}
+nav .nav-wrapper li button a:hover
+{
+    text-shadow: 6px 6px 10px white;
+  
+}
+nav .nav-wrapper .brand-logo
+{
+    padding-left: 25px!important;
+    text-decoration: none;
+
+}
+nav .nav-wrapper .brand-logo:hover
+{
+color: white;
+}
+nav .nav-wrapper li a
+{
+    font-size: 20px!important; 
+    text-decoration: none;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    text-transform: uppercase;
+    
+}
+.nav-wrapper .barnd-logo
+{
+    padding-left: 10px;
+}
+nav .nav-wrapper li a:hover{
+   background-color:transparent!important;  
+   color: white;
+   text-shadow: 4px 4px 6px #000000;
+}
+.bg-img p
+{
+    padding-top: 14rem;
+    color: white;
+    font-size: 24px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.footer
+{
+    
+    background-color: #276b94;
+    
+  
+}
+
+
+.icon ul label
+{
+    font-size:15px;
+    color: #ff0066;
+    margin-top: -10px;
+    text-transform: capitalize;
+    margin-left:-7px!important;
+    font-family:  'Caladea', serif;
+    font-weight: 900;
+   
+}
+
+
+
+.icon ul li:hover
+{
+   transition-delay: 3s!important;
+}
+.icon
+{
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76));   
+
+}
+.footer .copyright 
+{
+    display: flex;   
+    justify-content: center;    
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+.contact-us p
+{
+
+    color: white;
+    display: flex;   
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.contact-us 
+{
+    color: white;
+}
+.contact-icon i
+{
+    margin-left: 10px;  
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.main .mp
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color: black;
+    text-shadow: 4px 4px 6px #000000;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main .head
+{
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: 'Caladea', serif;
+    
+}
+.main  i
+{
+    font-size: 20px;
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.main .p1
+{
+    font-size: 20px;
+    font-family: 'Caladea', serif;
+    
+}
+.main .i1
+{  
+    border:none; 
+       
+}
+.main .connecter i
+{
+    border: none;
+    margin: -10px 0 2px 15px;
+    
+}
+
+
+.main .collapsible .collapsible-header
+{
+    font-weight: 700;
+    
+}
+
+.main .collapsible .collapsible-body
+{
+    font-weight: 500;
+}
+
+.app-btn button
+{
+    padding: 13px 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Roboto;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(#2aa9b2,#1f92b8);
+    color: white;
+    
+}
+.app-btn 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.app-btn button i
+{
+    border: none;
+}
+  
+
+
+
+
+@media  (max-width: 576px)
+{
+
+
+    .bg-img
+{ 
+    background-repeat: no-repeat;        
+    background-size: 100% 100%;
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url(/image/doctor.jpg);            
+}
+.bg-img p
+{
+    padding-top: 10rem;
+    color: white;
+    font-size: 18px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+}
+
+
+@media (min-width:576px) and (max-width:768px)
+{
+    .bg-img
+    { 
+        background-repeat: no-repeat;         
+        background-size: 100% 100%;
+        background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url(/image/doctor.jpg);  
+         margin-top: -64px;
+         padding-bottom: 20px;
+    
+    }
+    .bg-img p
+{
+    padding-top: 8rem;
+    color: white;
+    font-size: 22px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+    
+
+
+}
+
+@media (min-width:768px) and (max-width:992px)
+{
+    .bg-img
+    { 
+        background-repeat: no-repeat;          
+        background-size: cover;
+        background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url(/image/doc3.jpg);  
+         margin-top: -64px;
+         padding-bottom: 20px;
+    
+    }
+    .bg-img p
+    {
+        padding-top: 8rem;
+        color: white;
+        font-size: 22px;
+        font-family: 'Caladea', serif;
+       text-align: center;
+        margin-bottom: 50px;
+    
+    }
+
+
+    .main .head
+    {
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-family: 'Caladea', serif;
+    }
+
+    .main .p1
+    {
+        font-size: 15px;
+        font-family: 'Caladea', serif;
+    }
+    
+
+}
+
+
+@media (min-width:992px) and (max-width:1200px)
+{
+    .bg-img p
+    {
+        padding-top: 10rem;
+        color: white;
+        font-size: 22px;
+        font-family: 'Caladea', serif;
+       text-align: center;
+        margin-bottom: 50px;
+    
+    }
+
+
+    
+    .main .head
+    {
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-family: 'Caladea', serif;
+    }
+
+    .main .p1
+    {
+        font-size: 18px;
+        font-family: 'Caladea', serif;
+    }
+    
+}
+
+
+

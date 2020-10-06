@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="HKM">
+    <meta name="keyword" content="book bed">
+    <title>Hospital Management system</title>
+    <link rel="stylesheet" href="faq.css">    
+    <link rel="icon" href="./image/25.gif" type="image/gif" sizes="16x16">  
+      <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--cdn of semantic ui-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--cdn for animate css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+        <!--cdn for bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--font awosome-->
+        <script src="https://kit.fontawesome.com/67412fdba5.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Playfair+Display&family=Source+Serif+Pro:wght@500&display=swap" rel="stylesheet">
+        <style>
+          .main{
+           background-image:url('./image/pattern.png');
+           padding:15px 0 40px 0;
+         }
+          .details 
+            {
+              background: linear-gradient(to top, #dfe4ea, #f1f2f6);
+              border-radius: 10px;
+                padding: 30px 30px;
+                font-family: 'Bitter', serif;
+            }
+          ul li .collapsible-header
+          {
+            background-color: #f1f2f6;
+          }
+          ul li .collapsible-body
+          {
+            background-color: white;
+          }
+        </style>
+</head>
+<body>
+    <!--header-->
+        
+        <nav>
+            <div class="nav-wrapper">
+              <a href="index.php" class="brand-logo"><span style="color:blue;">Mad</span><span style="color:red;">Bag+<span></span></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.php" style=" text-shadow: 4px 4px 6px #000000;color:white">Home</a></li>
+                <li><a href="badges.html">service</a></li>
+                <li><a href="emergency.php">emergency</a></li>                              
+                <li><a href="feedback.php">Feedback form</a></li>
+                <li><button style="background: linear-gradient(to right, #01074c, #1babd7);"><a href="login_hosp.php" >Login</a></button></li>
+              </ul>
+            </div>
+          </nav>
+      
+         
+          <ul class="sidenav" id="mobile-demo">
+            <li><div class="user-view text-center " style="height:150px;background:url('./image/doctor2.jpg');padding-top:50px;">     
+        <a href="index.php" style="text-decoration:none;"><span style="color:blue;font-size:30px;">Mad</span><span style="color:red;font-size:30px;">Bag+<span></span></a>      
+      </div></li>
+      <div class="container">
+      <div class="row">
+          <div class="col-6">
+          <li><a href="login_hosp.php" style="background: linear-gradient(to right, #01074c, #1babd7);color:white;border-radius:3px;">Login</a></li>
+          </div>
+          <div class="col-6">
+          <li><a href="hosp_signup.php" style="background: linear-gradient(to right, #01074c, #1babd7);color:white;border-radius:3px;">SignUp</a></li>
+          </div>
+  </div>
+  </div>
+                  <li class="active"><a href="index.php" ><i class="fas fa-home fa-1x"></i>HOME</a></li>
+                  <li><a href="badges.html"><i class="fas fa-capsules"></i>SERVICE</a></li>
+                  <li><a href="emergency.php"><i class="far fa-hospital"></i>EMERGENCY</a></li>
+                  <li><a href="faq.html"><i class="far fa-question-circle"></i>FAQ</a></li>
+                  <li><a href="feedback.php"><i class="far fa-comment-alt"></i>FEEDBACK FORM</a></li>
+                  
+            </ul>      
+          
+
+            
+          <div class="icon">
+            <div class="fixed-action-btn">
+          <a class="btn-floating btn-large " style="background-color:  #005ce6;">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul >
+           
+            <li id="l1" data-interval="5000"><a class="btn-floating red" href="emergency.php"><i class="material-icons">notifications_active</i></a></li>
+            <label for="l1" data-interval="5000" style="color:red;">emergency</label>
+            <li id="l2"><a class="btn-floating yellow darken-1"><i class="fas fa-users"></i></a></li>
+            <label for="l2">clinician</label>
+            <li id="l3"><a class="btn-floating green"><i class="fas fa-pills"></i></a></li>
+            <label for="l3">Pharma</label>
+            <li id="l4"><a class="btn-floating blue"><i class="far fa-hospital"></i></a></li>
+            <label for="l4">hospital</label>
+          </ul>
+            </div>  
+            </div>
+            
+          <div class="bg-img ">  
+            <div class="container"> 
+              <div class="content">
+                 <p class="first_para " style="animation-duration: 2s;"> This is a complete solution that can be deployed and customized for any hospital or health care institution, providing your patients with the service they expect to find in state of the art medical institutions</p>                             
+                 
+              </div>        
+              </div>
+          </div>
+          <div class="main" >
+              <p class="mp mt-5 mb-5 ">Frequently Asked Questions</p>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-5 col-lg-4 col-sm-12 mb-5 z-depth-2 details">
+                      <p class="head">Follow the simple steps below and get your appointment fixed online!</p>
+                     <p class="p1" >
+                          <span>1.</span>                            
+                          <i class="fas fa-mobile-alt" style="border:none;"></i>                                                                               
+                      Verify yourself using Mobile No.                        
+                      </p>
+                      <div class="connecter">
+                      <i class="fas fa-link" style="border:none;" ></i>
+                      </div>
+                      <p class="p1">
+                          <span>2.</span>                            
+                          <i class="far fa-hospital" style="border:none;"></i>                                                                               
+                          Choose Hospital / Department
+                      </p>
+                      <div class="connecter">
+                          <i class="fas fa-link" style="border:none;"></i>
+                          </div>
+                      <p class="p1">
+                          <span>3.</span>                            
+                          <i class="far fa-calendar-alt" style="border:none;"></i>                                                                               
+                          Select date of appointment
+                      </p>
+                      <div class="connecter">
+                          <i class="fas fa-link" style="border:none;"></i>
+                          </div>
+                      <p class="p1">
+                          <span>4.</span>                            
+                          <i class="fas fa-user-check" style="border:none;"></i>                                                                               
+                          Verification using ID
+                      </p>
+                      <div class="connecter">
+                          <i class="fas fa-link" style="border:none;"></i>
+                          </div>
+                      <p class="p1">
+                          <span>5.</span>                            
+                          <i class="far fa-comment-alt" style="border:none;"></i>                                                                              
+                          Get confirmation sms
+                      </p>
+                      
+                   
+        </div>
+
+                      
+                      <div class="col-12 col-md-7 col-lg-8 col-sm-12">
+                        <ul class="collapsible  z-depth-2  ">
+                            <li class="active">
+                              <div class="collapsible-header">Q. What is ORS.GOV.IN portal?</div>
+                              <div class="collapsible-body"><span>Ans: ORS is Online Registration Framework Portal for taking OPD appointment in the Government Hospitals</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header">Q. Is taking appointment must to consult the doctor?</div>
+                              <div class="collapsible-body"><span>Ans: Yes</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header">Q. What are the various methods to take the appointment?</div>
+                              <div class="collapsible-body"><span>Ans: Patient or his/her attendant can get the online OPD appointment (over internet) by visiting website (https://ors.gov.in) or can come to appointment-cum-registration counters in the hospital.</span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Q. What are the advantages of taking online appointment using ors.gov.in?</div>
+                                <div class="collapsible-body"><span>Ans: Patients can avoid long queues at the hospital for seeking OPD appointment /registration.</span></div>
+                              </li>
+                              <li>
+                                <div class="collapsible-header">Q. What are pre-requisites for getting appointment?</div>
+                                <div class="collapsible-body"><span>Ans: New patient requires aadhaar number with registered mobile number. System will get personal details of the patient using eKYC data from UIDAI.
+
+                                    In case patient has aadhaar number but mobile number is not registered with it, then name of the patient appearing in aadhaar card must be known. After verification, patient needs to enter other personal details.
+                                    
+                                    In case, patient does not have aadhaar number then personal mobile number, name, father name, mother name etc need to be entered.</span></div>
+                              </li>
+                              <li>
+                                <div class="collapsible-header">Q. Is there is any quota for users seeking appointment from Web and hospital counter?</div>
+                                <div class="collapsible-body"><span>Ans: Quota as decided by respective hospitals will be incorporated in the software</span></div>
+                              </li>
+                              <li>
+                                <div class="collapsible-header">Q. What is the process to take appointment for a new patient?</div>
+                                <div class="collapsible-body"><span>Ans: If you have Aadhaar number of the patient and patient's mobile number is registered with UIDAI, then One Time PIN (OTP) will be sent by UIDAI through SMS and Aadhaar holder would need to give consent to share his/her KYC data as stored in UIDAI with the hospital for the purpose of taking OPD appointment.
+
+                                    In case patient's mobile number is not registered with UIDAI then patient's name as in Aadhaar needs to be given and after doing demographic authentication with UIDAI, patient will be requested to give a mobile number and other details like address, age etc.
+                                    
+                                    In case, user is not having aadhaar number, he can do online appointment but would have to collect OPD card from the hospital after providing identity of the patient.
+                                    
+                                    User can select the Department in a Government hospital where patient needs to visit for check-up Thereafter, user will be sent a confirmation through SMS giving details of OPD appointment.</span></div>
+                              </li>
+                              <li>
+                                <div class="collapsible-header">Q. What are the advantages of giving Aadhaar Number to the Hospital?</div>
+                                <div class="collapsible-body"><span>Ans: If the patient provides Aadhaar number on his first visit to the hospital then he would be given same preference for online appointment as is given to the patient who stands in queue in the hospital and UHID will be provided to the patient. In future, patient would be able to print E-OPD card after making online payment.
+
+                                    If patient is a follow up patient with hospital, then also he should try to link his Aadhaar with existing UHID which will facilitate in maintaining Electronic Health Record (EHR) in the hospital for better treatment.
+                                    
+                                    Patient's UHID get linked to Aadhaar card so that EHR across the Hospitals can also be facilitated in future.
+                                    
+                                    In case patient has aadhaar number but mobile number is not registered with it, then name of the patient appearing in aadhaar card must be known. After verification, patient needs to enter other personal details.</span></div>
+                              </li>
+                          </ul>
+                          <div class="app-btn mb-4">
+                            <a href="appointment.php" class="z-depth-5" style="padding:12px;background: linear-gradient(to right, #01074c, #1babd7);border-radius:4px;color:white;font-size:20px;text-decoration:none;font-family:  'Caladea', serif;"> Book Appointment Now <i class="fas fa-arrow-right" style="border: none;"></i></a>
+                            </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+    
+
+      
+      <div class="footer" style="background-color: #276b94;background-image: url('./image/footer.png');">
+        <div class="container">
+        <div class="row">          
+          <div class="col-6 col-md-6 col-lg-6 col-sm-6 copyright">            
+              <p class="mt-3 mb-3" style="color: white;">© COPYRIGHT 2020, NIC. ALL RIGHTS RESERVED®.</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6 col-sm-6 contact-us">            
+              <p class="mt-3 mb-3">contact us</p>
+              <div class="contact-content">
+              <i class="fas fa-map-marker-alt  fa-1x"></i>
+              <span class="ml-2">ankit yadav Pvt.Ltd.</span><br>
+              <span >mairwa,siwan,bihar 841239</span><br>
+              <i class="fas fa-phone-alt fa-1x"></i>
+              <span class="ml-2">+91-7001739196</span><br>
+              <i class="far fa-envelope text-"></i>
+              <span class="ml-2">ankityadav66666@gmail.com</span><br>
+              <i class="fas fa-mobile-alt"></i>
+              <span class="ml-2">+91-7001739196</span><br>
+              <div class="contact-icon mt-3">
+              <i class="fab fa-facebook" ></i>
+              <i class="fab fa-google-plus"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+    
+    
+  
+    <!--unwanted-->
+    <!--jquiry cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--cdn of javascript for semantic ui--> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

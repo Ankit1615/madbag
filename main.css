@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Noto+Serif|Playfair+Display|Roboto|Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img
+{ 
+    background-repeat: no-repeat;    
+    min-height: 100vh!important;
+    background-size: cover;
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url('./image/doc3.jpg');  
+     margin-top: -64px;
+
+}
+
+nav 
+{
+    background-color: transparent!important; 
+     
+}
+
+.icon ul label
+{
+    font-size:15px;
+    color: #ff0066;
+    margin-top: -10px;
+    text-transform: capitalize;
+    margin-left:-7px!important;
+    font-family:  'Caladea', serif;
+    font-weight: 900;
+   
+}
+
+
+
+.icon ul li:hover
+{
+   transition-delay: 3s!important;
+}
+
+.icon
+{
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76));   
+
+}
+nav .nav-wrapper li button
+{
+    background-image: linear-gradient(#2aa9b2,#1f92b8);
+    outline: none;
+    border: none;
+    height: 50px;
+    color: white!important;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+   
+}
+nav .nav-wrapper li button a
+{
+    color: white;
+    margin-top: -8px!important;
+}
+nav .nav-wrapper li button:hover 
+{
+    background-color: rgb(1, 58, 76);
+}
+nav .nav-wrapper li button a:hover
+{
+    text-shadow: 6px 6px 10px white;
+  
+}
+nav .nav-wrapper .brand-logo
+{
+    padding-left: 25px!important;
+    text-decoration: none;
+
+}
+nav .nav-wrapper .brand-logo:hover
+{
+color: white;
+}
+nav .nav-wrapper ul li a
+{
+    font-size: 20px!important; 
+    text-decoration: none;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    text-transform: uppercase;
+    
+}
+.nav-wrapper .brand-logo
+{
+    padding-left: 10px;
+}
+nav .nav-wrapper li a:hover{
+   background-color:transparent!important;  
+   color: white;
+   text-shadow: 4px 4px 6px #000000;
+}
+
+.bg-img p
+{
+    padding-top: 14rem;
+    color: white;
+    font-size: 24px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+.bg-img .content{
+    padding:0 10% 0 10%;
+}
+.bg-img .nav-wrapper{
+    margin: 10% auto;
+}
+.bg-img form
+{
+    margin-top: 5rem auto!important;
+
+    background-color: #cdf3fe;
+  
+}
+input::placeholder
+{
+    color: #000000;
+}
+.bg-img .app-btn
+{
+    display: flex;    
+    justify-content: center;
+    padding-top: 3rem;
+   
+}
+.bg-img .app-btn button
+{
+    padding: 13px 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Roboto;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(#2aa9b2,#1f92b8);
+    color: white;
+}
+.bg-img .app-btn button .boo i{
+   
+    animation-iteration-count: infinite;
+  }
+  
+.main .why .w
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color: black;
+    text-shadow: 4px 4px 6px #000000;
+}
+
+.main .why
+{
+    background-image: linear-gradient(to bottom,white,#deeff1);
+}
+
+.main .why .why-content .alert
+{
+    background-color: #fafafa;  
+    border-color: lightgray; 
+   
+           
+}
+.main .why .why-content .alert h4,.main .why .why-content .alert p
+{
+    color: #000000;
+}
+.main .why .why-content .alert img
+{
+    height: 80px;
+   margin-top: 15px;
+}
+.main .why .why-content .alert i
+{
+    margin-top: 15px;
+}
+.footer
+{
+    background-image: url(./image/footer.png);
+}
+ .footer .copyright 
+{
+    display: flex;   
+    justify-content: center;    
+    font-size: 15px;
+
+}
+
+
+.contact-us p
+{
+
+    color: white;
+    display: flex;   
+    justify-content: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.contact-us 
+{
+    color: white;
+}
+.contact-icon i
+{
+    margin-left: 10px;  
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 576px)
+{
+
+
+    .bg-img
+{ 
+    background-repeat: no-repeat;    
+    min-height: 100vh!important;
+    background-size: 100% 100%;
+    background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url('./image/doctor.jpg'); 
+     margin-top: -64px;
+     
+
+}
+.bg-img p
+{
+    padding-top: 12rem;
+    color: white;
+    font-size: 18px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.bg-img .app-btn button
+{
+    padding: 13px 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Roboto;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(#2aa9b2,#1f92b8);
+    color: white;
+}
+    .main .why .w
+    {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+        color: black;
+        text-shadow: 4px 4px 6px #000000;
+    }
+
+.main .why .why-content .alert
+{
+    background-color: transparent!important;
+    border: none;
+    
+      
+}
+.main .why .why-content .alert h4
+{
+    font-size: 15px;
+    margin-bottom: 16px;
+    display: flex;   
+    justify-content: center;
+    color: black;
+  
+}
+.main .why .why-content .alert p
+{
+    font-size: 12px ;
+    font-family: 'Noto Serif', serif;
+    color: black;
+}
+.main .why .why-content .alert  i
+{
+    margin-top: 30px;
+    font-size: 60px!important;
+    display: flex;   
+    justify-content: center;
+}
+.main .why .why-content .alert img
+{
+    height: 80px;
+    margin-left: 50px;
+}
+
+.footer .copyright
+{
+    display: flex;   
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+
+}
+
+
+@media (min-width:576px) and (max-width:768px)
+{
+    .bg-img
+    { 
+        background-repeat: no-repeat;    
+       min-height: 100vh!important;
+        background-size: 100% 100%;
+        background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url(./image/doctor.jpg); 
+         
+         margin-top: -64px;
+         padding-bottom: 20px;
+    
+    }
+    .bg-img p
+{
+    padding-top: 10rem;
+    color: white;
+    font-size: 22px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+    .main .why .w
+{
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color: black;
+    text-shadow: 4px 4px 6px #000000;
+}
+
+    .main .why .why-content .alert
+    {
+        background-color: transparent!important;
+        border: none;
+          
+    }
+    .main .why .why-content .alert h4
+    {
+        font-size: 15px;
+        margin-bottom: 16px;
+        display: flex;   
+        justify-content: center;
+        color: black;
+      
+    }
+    .main .why .why-content .alert p
+    {
+        font-size: 12px ;
+        font-family: 'Noto Serif', serif;
+        color: black;
+    }
+    .main .why .why-content .alert  i
+    {
+        margin-top: 30px;
+        font-size: 60px!important;
+        display: flex;   
+        justify-content: center;
+    }
+    .main .why .why-content .alert img
+    {
+        height: 80px;
+        margin-left: 50px;
+        
+    
+    }
+  
+
+
+}
+
+@media (min-width:768px) and (max-width:992px)
+{
+    .bg-img
+    { 
+        background-repeat: no-repeat;    
+       min-height: 100vh!important;
+        background-size: cover;
+        background-image: linear-gradient(280deg,rgba(0, 0, 0, 0), rgb(1, 58, 76)) ,url(/image/doc3.jpg);  
+         margin-top: -64px;
+         padding-bottom: 20px;
+    
+    }
+    .bg-img p
+{
+    padding-top: 10rem;
+    color: white;
+    font-size: 24px;
+    font-family: 'Caladea', serif;
+   text-align: center;
+    margin-bottom: 50px;
+
+}
+
+    .main .why .w
+{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color: black;
+    text-shadow: 4px 4px 6px #000000;
+}
+    .main .why .w
+    {
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .main .why .why-content .alert
+    {
+        background-color: transparent!important;
+        border: none;
+          
+    }
+    .main .why .why-content .alert h4
+    {
+        font-size: 20px;
+        margin-bottom: 16px;  
+        color: black;
+      
+    }
+    .main .why .why-content .alert p
+    {
+        font-size: 15px ;       
+        font-family: lato;
+        color: black;
+    }
+   .main .why .why-content .alert  i
+    {
+        margin-top: 45px;
+        font-size: 60px!important;
+     
+    }
+    .main .why .why-content .alert img
+    {
+        margin-top: 30px;
+        height: 80px;
+    }
+   
+}
+
+
+@media (min-width:992px) and (max-width:1200px)
+{
+
+    .main .why .w
+    {
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .main .why .why-content .alert
+    {
+        background-color: transparent!important;
+        border: none;
+          
+    }
+    .main .why .why-content .alert h4
+    {
+        font-size: 20px;
+        margin-bottom: 16px;  
+        color: black;
+      
+    }
+    .main .why .why-content .alert p
+    {
+        font-size: 18px ;       
+        font-family: lato;
+        color: black;
+    }
+   .main .why .why-content .alert  i
+    {
+        margin-top: 45px;
+        font-size: 60px!important;
+     
+    }
+    .main .why .why-content .alert img
+    {
+        margin-top: 30px;
+        height: 80px;
+    }
+
+}
+
+
+
